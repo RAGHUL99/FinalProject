@@ -2,7 +2,7 @@ var express = require("express")
 var bodyParser = require("body-parser")
 var mongoose = require("mongoose")
 var Connection = require('tedious').Connection;
-var sql = require("mssql/msnodesqlv8");
+//var sql = require("mssql/msnodesqlv8");
 
 const app = express()
 
