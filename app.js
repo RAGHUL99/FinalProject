@@ -320,7 +320,7 @@ app.get("/",(req,res)=>{
         "Allow-access-Allow-Origin": '*'
     })
     return res.redirect("/Signup.html");
-}).listen(3000);
+}).listen(process.env.PORT || 3000);
 
 app.get("/Designup",(req, res)=>{
     res.redirect("/Designup.html");
